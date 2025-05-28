@@ -8,7 +8,9 @@ app.get('/', (req, res) => {
   res.send('Hello World!'); 
 })
 
-//stsrt the server
+//start the server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
+  // yeh line console par message print karegi ki server kis port par chal raha hai
+  //node index.js command se server ko start kiya ja sakta hai ,isko terminal me likhte h
 });
